@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.nerati</groupId>
-	<artifactId>ormlite</artifactId>
+	<artifactId>ormliteTest</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
@@ -37,4 +37,16 @@
 			<version>1.2.128</version>
 		</dependency>
 	</dependencies>
+	<distributionManagement>
+	  <repository>
+	    <id>central</id>
+	    <name>central</name>
+	    <url>https://artifactory.nerati.com/artifactory/central</url>
+	  </repository>
+	  <snapshotRepository>
+	    <id>snapshots</id>
+	    <name>snapshots</name>
+	    <url>https://artifactory.nerati.com/artifactory/libs-snapshot-local</url>
+	  </snapshotRepository>
+	</distributionManagement>
 </project>
