@@ -5,6 +5,8 @@ import com.j256.ormlite.dao.DaoManager;
 import com.j256.ormlite.jdbc.JdbcConnectionSource;
 import com.j256.ormlite.support.ConnectionSource;
 import com.j256.ormlite.table.TableUtils;
+import com.nerati.ormlite.Account;
+
 
 /**
  * Hello world!
@@ -29,7 +31,7 @@ public class AccountApp
         
         // create an instance of Account
         Account account = new Account();
-        account.setName("Jim Coakley");
+        account.setName("Jad");
 
         // persist the account object to the database
         accountDao.create(account);

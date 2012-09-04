@@ -1,14 +1,11 @@
-*.class
-
-# Package Files #
-*.jar
-*.war
-*.ear
-
 target/
 *.pyc
 *.log
 *~
+.class
 .classpath
 .project
 .settings
+coverage-report
+*.swp
+
